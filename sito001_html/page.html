@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGINA GENERICA | SOUNDWAVE Festival</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        .generic-section {
+            padding: var(--spacing-4xl) 0;
+            background: var(--color-dark);
+        }
+        .generic-content-container {
+            background: var(--color-dark-2);
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-md);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: var(--spacing-3xl) var(--spacing-2xl);
+        }
+        .generic-content-container ul 
+        {
+            margin-block-end: 1rem;
+            padding-inline-start: 20px;
+        }
+
+        .generic-content-container h2 {
+            margin-block: var(--spacing-xl) var(--spacing-lg);
+        }
+        .generic-content-container h3 {
+            margin-block: var(--spacing-md) var(--spacing-lg);
+        }
+        @media (max-width: 576px) {
+            .generic-content-container {padding: var(--spacing-xl) var(--spacing-md);}
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Header -->
+<header class="site-header">
+    <div class="container header-container">
+        <div class="logo">SOUND<span>WAVE</span></div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="index.html#lineup" class="nav-link">Lineup</a></li>
+                <li><a href="index.html#merchandise" class="nav-link">Merchandise</a></li>
+                <li><a href="index.html#gallery" class="nav-link">Galleria</a></li>
+                <li><a href="index.html#artists" class="nav-link">Artisti</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+            </ul>
+            <button class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </div>
+</header>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu">
+    <button class="mobile-menu-close">
+        <i class="fas fa-times"></i>
+    </button>
+    <nav class="mobile-nav">
+        <ul>
+            <li class="mobile-nav-item"><a href="index.html" class="mobile-nav-link">Home</a></li>
+            <li class="mobile-nav-item"><a href="index.html#lineup" class="mobile-nav-link">Lineup</a></li>
+            <li class="mobile-nav-item"><a href="index.html#merchandise" class="mobile-nav-link">Merchandise</a></li>
+            <li class="mobile-nav-item"><a href="index.html#gallery" class="mobile-nav-link">Galleria</a></li>
+            <li class="mobile-nav-item"><a href="index.html#artists" class="mobile-nav-link">Artisti</a></li>
+            <li class="mobile-nav-item"><a href="blog.html" class="mobile-nav-link">Blog</a></li>
+        </ul>
+    </nav>
+</div>
+    <div class="overlay"></div>
+
+    <!-- Generic Static Page Section -->
+    <section class="generic-section">
+        <div class="container">
+            <div class="generic-content-container">
+                <!-- ====== Qui inserisci il titolo della pagina ====== -->
+                <h1 class="page-title" >Titolo della pagina</h1>
+                <!-- ====== Qui inserisci il contenuto della pagina ====== -->
+                <div style="margin-top:var(--spacing-lg);">
+                    <p>Contenuto della pagina da completare.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" style="background-image: linear-gradient(rgba(60, 0, 140, 0.8), rgba(60, 0, 140, 0.8));">
+        <div class="container">
+            <h2 class="cta-title">Hai bisogno di aiuto?</h2>
+            <p class="cta-text">Contattaci per qualsiasi richiesta utilizzando la mail <a href="mailto:info@soundwave.it" style="color:var(--color-secondary);">info@soundwave.it</a></p>
+            <div class="cta-buttons">
+                <a href="index.html" class="button btn-secondary">Torna alla Home</a>
+                <a href="faq.html" class="button btn-primary">FAQ</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <div class="footer-column">
+                <h4>SOUNDWAVE</h4>
+                <p>Il festival musicale più grande d'Italia, con artisti di fama mondiale e un'atmosfera unica che ti lascerà senza fiato.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Link Utili</h4>
+                <ul class="footer-links">
+                    <li class="footer-link"><a href="index.html">Home</a></li>
+                    <li class="footer-link"><a href="index.html#lineup">Lineup</a></li>
+                    <li class="footer-link"><a href="index.html#merchandise">Merchandising</a></li>
+                    <li class="footer-link"><a href="index.html#gallery">Galleria</a></li>
+                    <li class="footer-link"><a href="index.html#blog">Blog</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Informazioni</h4>
+                <ul class="footer-links">
+                    <li class="footer-link"><a href="faq.html">FAQ</a></li>
+                    <li class="footer-link"><a href="#">Come Arrivare</a></li>
+                    <li class="footer-link"><a href="#">Alloggi</a></li>
+                    <li class="footer-link"><a href="#">Regolamento</a></li>
+                    <li class="footer-link"><a href="biglietti.html">Biglietti</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Contatti</h4>
+                <ul class="footer-links">
+                    <li class="footer-link"><a href="mailto:info@soundwave.it">info@soundwave.it</a></li>
+                    <li class="footer-link"><a href="tel:+390123456789">+39 0123 456789</a></li>
+                    <li class="footer-link">Via della Musica, 123<br>00100 Roma, Italia</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 SOUNDWAVE Festival. Tutti i diritti riservati. | Privacy Policy | <a href="cookie-policy.html">Cookie Policy</a> | Termini di Servizio</p>
+        </div>
+    </div>
+</footer>
+
+    <!-- Mobile Menu Toggle JS -->
+    <script src="script.js"></script>
+</body>
+</html>
