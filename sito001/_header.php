@@ -4,7 +4,7 @@
         <div class="logo">SOUND<span>WAVE</span></div>
         <nav>
             <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="index.html" class="nav-link">Home</a></li>
                 <li><a href="index.html#lineup" class="nav-link">Lineup</a></li>
                 <li><a href="index.html#merchandise" class="nav-link">Merchandise</a></li>
                 <li><a href="index.html#gallery" class="nav-link">Galleria</a></li>
